@@ -1,5 +1,4 @@
---Завдання 2
---Переназвіть базу даних із першого завдання. 
---Нове ім’я для бази даних Cats.
+--Завдання 3
+--Видаліть базу даних Cats
 
-ALTER DATABASE Birds RENAME TO Cats;
+DROP DATABASE IF EXISTS Cats;
